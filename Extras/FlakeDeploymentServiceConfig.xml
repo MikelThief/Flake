@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceDirectorConfig Name="Metastorm Deployment Service List">
+    <ServiceList Type="Deployment">
+        <Service Name="dev axa" Description="Deployment Service axa">
+            <Transport Type="WCF">
+                <Server>net.tcp://wppotc02/Deployment</Server>
+            </Transport>
+        </Service>
+    </ServiceList>
+</ServiceDirectorConfig>
